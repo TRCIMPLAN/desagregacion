@@ -25,7 +25,7 @@ namespace Base;
 /**
  * Clase Navegacion
  */
-class Navegacion extends \Configuracion\NavegacionConfig {
+class Navegacion extends Configuracion\NavegacionConfig {
 
     // protected $sitio_titulo;
     // protected $logotipo;

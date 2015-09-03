@@ -25,7 +25,7 @@ namespace Desagregacion;
 /**
  * Clase Introduccion
  */
-class Introduccion extends \Base\Publicacion {
+class Introduccion extends Base\Publicacion {
 
     /**
      * Constructor

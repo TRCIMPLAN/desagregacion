@@ -25,7 +25,7 @@ namespace DesagregacionTorreon;
 /**
  * Clase Centro
  */
-class Centro extends \Base\Publicacion {
+class Centro extends Base\Publicacion {
 
     /**
      * Constructor

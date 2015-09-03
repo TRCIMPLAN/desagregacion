@@ -25,7 +25,7 @@ namespace DesagregacionTorreon;
 /**
  * Clase Esparza
  */
-class Esparza extends \Base\Publicacion {
+class Esparza extends Base\Publicacion {
 
     /**
      * Constructor

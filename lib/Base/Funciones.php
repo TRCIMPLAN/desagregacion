@@ -44,4 +44,31 @@ spl_autoload_register(
     } // auto-cargador de clases
 );
 
+/*
+        $fileName  = '';
+        $namespace = '';
+        // Si la ruta tiene ..\ al inicio
+        if (strpos($className, '..\\') === 0) {
+            // Se toma lo que está después del ..\
+            $className = substr($className, 3);
+            // Si hay un \ se separan los directorios del nombre del archivo
+            if ($lastNsPos = strrpos($className, '\\')) {
+                $namespace = substr($className, 0, $lastNsPos);
+                $className = substr($className, $lastNsPos + 1);
+                $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace);
+            }
+        } else {
+            // No hay ..\ al inicio, se retira el \ al inicio si lo hubiera
+            $className = ltrim($className, '\\');
+            // Si hay un \ se separan los directorios del nombre del archivo
+            if ($lastNsPos = strrpos($className, '\\')) {
+                $namespace = substr($className, 0, $lastNsPos);
+                $className = substr($className, $lastNsPos + 1);
+                $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace).DIRECTORY_SEPARATOR;
+            }
+        }
+        $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className).'.php';
+        require 'lib/'.$fileName;
+*/
+
 ?>

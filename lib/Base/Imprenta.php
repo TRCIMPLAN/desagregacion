@@ -25,7 +25,7 @@ namespace Base;
 /**
  * Clase Imprenta
  */
-class Imprenta extends \Configuracion\ImprentaConfig {
+class Imprenta extends Configuracion\ImprentaConfig {
 
     // public $base_dir;
     public $plantilla;               // Instancia de Plantilla

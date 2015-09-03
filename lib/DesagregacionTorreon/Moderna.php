@@ -26,7 +26,7 @@ namespace DesagregacionTorreon;
 /**
  * Clase Moderna
  */
-class Moderna extends \Base\Publicacion {
+class Moderna extends Base\Publicacion {
 
     /**
      * Constructor
