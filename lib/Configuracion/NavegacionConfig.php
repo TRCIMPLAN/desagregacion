@@ -29,8 +29,14 @@ class NavegacionConfig {
 
     protected $sitio_titulo  = 'IMPLAN Torreón - Desagregación';
     protected $logotipo      = 'imagenes/implan-barra-logo-chico-gris.png';
-    protected $opciones      = array('Introducción' => 'desagregacion/index.html');
-    static public $iconos    = array('Introducción' => 'fa fa-file-text-o');
+    protected $opciones      = array(
+        'Desagregación' => array(
+            'Desagregación > Introducción'             => 'desagregacion/introduccion.html',
+            'Desagregación > Desagregación de Torreón' => 'desagregacion-torreon/index.html'));
+    static public $iconos    = array(
+        'Desagregación'  => 'fa fa-file-text-o',
+        'Introducción'   => 'fa fa-file-text-o',
+        'Región Torreón' => 'fa fa-file-text-o');
     protected $buscador_html = <<<FINAL
           <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
             <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">

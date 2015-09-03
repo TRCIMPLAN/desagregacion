@@ -20,7 +20,7 @@
  * @package TrcIMPLAN
  */
 
-namespace Desagregacion;
+namespace DesagregacionTorreon;
 use Base\ImprentaPublicaciones;
 
 /**
@@ -33,19 +33,19 @@ class Imprenta extends ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
-        $this->publicaciones_directorio = 'Desagregacion';
+        $this->publicaciones_directorio = 'DesagregacionTorreon';
         // Los siguientes parámetros dan datos para el índice/galería que será creado
-        $this->titulo                   = 'Desagregación';
-        $this->descripcion              = 'Datos a nivel sector de la Ciudad de Torreón.';
+        $this->titulo                   = 'Desagregación de Torreón';
+        $this->descripcion              = 'Datos de cada una de las colonias del municipio de Torreón.';
         $this->claves                   = 'IMPLAN, Torreon';
         $this->encabezado_color         = '#646464';
         // Etiqueta de Navegación a poner activa
-        $this->nombre_menu              = 'Desagregación';
+        $this->nombre_menu              = 'Desagregación > Desagregación de Torreón';
         // Clase que concentrará a las publicaciones para hacer su propia página
         $this->concentrador             = 'Indice'; // Puede ser Indice (por defecto), Galeria o Tarjetas
         // La ruta al archivo con el índice/galería/tarjetas que será creado
-        $this->directorio               = 'desagregacion';
-        $this->archivo_ruta             = 'desagregacion/index.html';
+        $this->directorio               = 'desagregacion-torreon';
+        $this->archivo_ruta             = 'desagregacion-torreon/index.html';
     } // constructor
 
 } // Clase Imprenta

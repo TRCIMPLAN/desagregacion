@@ -21,11 +21,12 @@
  */
 
 namespace Base;
+use Configuracion\PlantillaConfig;
 
 /**
  * Clase Plantilla
  */
-class Plantilla extends Configuracion\PlantillaConfig {
+class Plantilla extends PlantillaConfig {
 
     // public $sitio_titulo;
     // public $sitio_url;

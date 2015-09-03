@@ -21,11 +21,12 @@
  */
 
 namespace Base;
+use Configuracion\MapaInferiorConfig;
 
 /**
  * Clase MapaInferior
  */
-class MapaInferior extends Configuracion\MapaInferiorConfig {
+class MapaInferior extends MapaInferiorConfig {
 
     // public $sitio_titulo;
     // public $logotipo;

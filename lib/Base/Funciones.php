@@ -20,10 +20,10 @@
  * @package TrcIMPLAN
  */
 
-// TODOS LOS CARACTERES SERAN UTF-8
+// Todos los caracteres serán UTF-8
 mb_internal_encoding('utf-8');
 
-// AUTOCARGADOR DE CLASES
+// Autocargador de Clases
 spl_autoload_register(
     /**
      * Auto-cargador de Clases
@@ -31,44 +31,21 @@ spl_autoload_register(
      * @param string Creación de la instancia
      */
     function ($className) {
+        // Se retira la diagonal inversa al inicio si la hubiera
         $className = ltrim($className, '\\');
         $fileName  = '';
         $namespace = '';
+        // Si hay una diagonal inversa se separan los directorios del nombre del archivo
         if ($lastNsPos = strrpos($className, '\\')) {
             $namespace = substr($className, 0, $lastNsPos);
             $className = substr($className, $lastNsPos + 1);
             $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace).DIRECTORY_SEPARATOR;
         }
+        // Acumular el nombre del archivo, convertir guiones bajos a diagonales como lo especifica la norma
         $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className).'.php';
+        // Cargar el archivo
         require 'lib/'.$fileName;
     } // auto-cargador de clases
 );
-
-/*
-        $fileName  = '';
-        $namespace = '';
-        // Si la ruta tiene ..\ al inicio
-        if (strpos($className, '..\\') === 0) {
-            // Se toma lo que está después del ..\
-            $className = substr($className, 3);
-            // Si hay un \ se separan los directorios del nombre del archivo
-            if ($lastNsPos = strrpos($className, '\\')) {
-                $namespace = substr($className, 0, $lastNsPos);
-                $className = substr($className, $lastNsPos + 1);
-                $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace);
-            }
-        } else {
-            // No hay ..\ al inicio, se retira el \ al inicio si lo hubiera
-            $className = ltrim($className, '\\');
-            // Si hay un \ se separan los directorios del nombre del archivo
-            if ($lastNsPos = strrpos($className, '\\')) {
-                $namespace = substr($className, 0, $lastNsPos);
-                $className = substr($className, $lastNsPos + 1);
-                $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace).DIRECTORY_SEPARATOR;
-            }
-        }
-        $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className).'.php';
-        require 'lib/'.$fileName;
-*/
 
 ?>

@@ -52,6 +52,10 @@ try {
     exit($E_FATAL);
 }
 
+// Mensaje de término
+echo "$soy Terminó\n";
+exit($EXITO);
+
 // Cargar la página inicial
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = new \Inicial\PaginaInicial();
@@ -63,20 +67,5 @@ try {
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
-
-// Cargar la página Buscador Resultados
-$impresor            = new \Base\Imprenta();
-$impresor->plantilla = new \Inicial\PaginaBuscadorResultados();
-// Imprimir
-try {
-    echo '  Para la página de resultados del buscador '.$impresor->imprimir()."\n";
-} catch (\Exception $e) {
-    echo "$soy ".$e->getMessage()."\n";
-    exit($E_FATAL);
-}
-
-// Mensaje de término
-echo "$soy Terminó\n";
-exit($EXITO);
 
 ?>
