@@ -39,8 +39,8 @@ echo "$soy Inicia\n";
 
 // En este arreglo están las rutas a las clases Imprenta
 $clases = array(
-    '\Desagregacion\Imprenta',
-    '\DesagregacionTorreon\Imprenta');
+    'Desagregacion\Imprenta',
+    'DesagregacionTorreon\Imprenta');
 // Imprimir
 try {
     foreach ($clases as $clase) {
@@ -52,13 +52,9 @@ try {
     exit($E_FATAL);
 }
 
-// Mensaje de término
-echo "$soy Terminó\n";
-exit($EXITO);
-
 // Cargar la página inicial
-$impresor            = new \Base\Imprenta();
-$impresor->plantilla = new \Inicial\PaginaInicial();
+$impresor            = new Base\Imprenta();
+$impresor->plantilla = new PaginaInicial\PaginaInicial();
 // Imprimir
 try {
     echo '  Página inicial '.$impresor->imprimir()."\n";
@@ -67,5 +63,9 @@ try {
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
+
+// Mensaje de término
+echo "$soy Terminó\n";
+exit($EXITO);
 
 ?>
