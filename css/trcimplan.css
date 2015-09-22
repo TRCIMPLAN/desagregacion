@@ -326,6 +326,27 @@ a.galeria-icono:active  { color:#FF3300; }
 .caption-descripcion { font-size:0.8em; }
 .caption-boton       { font-size:0.8em; font-family:'Roboto Condensed',sans-serif; font-weight:400; }
 
+/* Contenido Tablas */
+.listado th {
+    background-color:#F0F0F0;
+}
+.listado td {
+    font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
+}
+.cantidad,
+.decimal,
+.dinero,
+.entero,
+.flotante,
+.porcentaje {
+    text-align:right;
+    white-space:nowrap;
+}
+.nd {
+    text-align:center;
+    background-color:#EEE;
+}
+
 /* Página Inicial */
 #organizacion .banner {
     width:100%;

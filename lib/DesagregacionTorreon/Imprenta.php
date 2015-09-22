@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Desagregación - Imprenta
+ * TrcIMPLAN Desagreación
  *
  * Copyright (C) 2015 Guillermo Valdes Lozano
  *
@@ -21,12 +21,11 @@
  */
 
 namespace DesagregacionTorreon;
-use Base\ImprentaPublicaciones;
 
 /**
  * Clase Imprenta
  */
-class Imprenta extends ImprentaPublicaciones {
+class Imprenta extends \Base\ImprentaPublicaciones {
 
     /**
      * Constructor
@@ -35,12 +34,12 @@ class Imprenta extends ImprentaPublicaciones {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'DesagregacionTorreon';
         // Los siguientes parámetros dan datos para el índice/galería que será creado
-        $this->titulo                   = 'Desagregación de Torreón';
-        $this->descripcion              = 'Datos de cada una de las colonias del municipio de Torreón.';
+        $this->titulo                   = 'Desagregaciones en Torreón';
+        $this->descripcion              = 'Índice de las desagregaciones en Torreón.';
         $this->claves                   = 'IMPLAN, Torreon';
         $this->encabezado_color         = '#646464';
         // Etiqueta de Navegación a poner activa
-        $this->nombre_menu              = 'Desagregación > Desagregación de Torreón';
+        $this->nombre_menu              = 'Desagregación > En Torreón';
         // Clase que concentrará a las publicaciones para hacer su propia página
         $this->concentrador             = 'Indice'; // Puede ser Indice (por defecto), Galeria o Tarjetas
         // La ruta al archivo con el índice/galería/tarjetas que será creado

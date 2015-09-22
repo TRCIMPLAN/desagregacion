@@ -31,8 +31,8 @@ class NavegacionConfig {
     protected $logotipo      = 'imagenes/implan-barra-logo-chico-gris.png';
     protected $opciones      = array(
         'Desagregación' => array(
-            'Desagregación > Introducción'             => 'desagregacion/introduccion.html',
-            'Desagregación > Desagregación de Torreón' => 'desagregacion-torreon/index.html'));
+            'Desagregación > Introducción' => 'desagregacion/introduccion.html',
+            'Desagregación > En Torreón'   => 'desagregacion-torreon/index.html'));
     static public $iconos    = array(
         'Desagregación'  => 'fa fa-file-text-o',
         'Introducción'   => 'fa fa-file-text-o',
