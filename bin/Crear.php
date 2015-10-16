@@ -53,8 +53,8 @@ try {
 }
 
 // Cargar la página inicial
-$impresor            = new Base\Imprenta();
-$impresor->plantilla = new PaginaInicial\PaginaInicial();
+$impresor            = new \Base\Imprenta();
+$impresor->plantilla = new \PaginaInicial\PaginaInicial();
 // Imprimir
 try {
     echo '  Página inicial '.$impresor->imprimir()."\n";

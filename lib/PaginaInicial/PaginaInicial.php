@@ -21,13 +21,11 @@
  */
 
 namespace PaginaInicial;
-use Base\Plantilla;
-use Base\Navegacion;
 
 /**
  * Clase PaginaInicial
  */
-class PaginaInicial extends Plantilla {
+class PaginaInicial extends \Base\Plantilla {
 
     // public $sitio_titulo;
     // public $sitio_url;
@@ -67,7 +65,7 @@ class PaginaInicial extends Plantilla {
         $this->imagen_previa_ruta   = 'imagenes/imagen-previa.jpg';
         $this->contenido_en_renglon = false;
         // Navegación
-        $this->navegacion           = new Navegacion();
+        $this->navegacion           = new \Base\Navegacion();
         $this->navegacion->en_raiz  = true;
     } // constructor
 

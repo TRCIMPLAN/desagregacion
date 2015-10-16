@@ -21,12 +21,11 @@
  */
 
 namespace PaginaInicial;
-use Base\SchemaGovernmentOrganization;
 
 /**
  * Clase Organizacion
  */
-class Organizacion extends SchemaGovernmentOrganization {
+class Organizacion extends \Base\SchemaGovernmentOrganization {
 
     // public $onTypeProperty;      // Text. Use when this item is part of another one.
     // public $identation  = 3;     // Integer. Level of identation (beautiful code).

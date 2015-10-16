@@ -25,8 +25,6 @@ namespace Base;
 /**
  * Clase ImprentaExceptionVacio
  */
-class ImprentaExceptionVacio extends \Exception {
-
-} // Clase ImprentaExceptionVacio
+class ImprentaExceptionVacio extends \Exception {}
 
 ?>

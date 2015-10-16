@@ -21,12 +21,11 @@
  */
 
 namespace PaginaInicial;
-use Base\SchemaProduct;
 
 /**
  * Clase DestacadoDesagregacion
  */
-class DestacadoDesagregacion extends SchemaProduct {
+class DestacadoDesagregacion extends \Base\SchemaProduct {
 
     // public $onTypeProperty; // Text. Use when this item is part of another one.
     // public $description;    // Text. A short description of the item.

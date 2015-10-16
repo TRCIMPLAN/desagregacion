@@ -21,12 +21,11 @@
  */
 
 namespace Base;
-use Configuracion\PublicacionConfig;
 
 /**
  * Clase Publicacion
  */
-class Publicacion extends PublicacionConfig {
+class Publicacion extends \Configuracion\PublicacionConfig {
 
     // public $fecha;                         // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
     // public $autor;                         // El nombre o apodo a quien se le atribuye

@@ -21,12 +21,11 @@
  */
 
 namespace Desagregacion;
-use Base\ImprentaPublicaciones;
 
 /**
  * Clase Imprenta
  */
-class Imprenta extends ImprentaPublicaciones {
+class Imprenta extends \Base\ImprentaPublicaciones {
 
     /**
      * Constructor
