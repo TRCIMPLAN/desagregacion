@@ -23,24 +23,24 @@
 namespace DesagregacionTorreon;
 
 /**
- * Clase Moderna
+ * Clase Zona30
  */
-class Moderna extends \Base\Publicacion {
+class Zona30 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Desagregación Moderna';
+        $this->nombre          = 'Desagregación Zona 30';
         $this->autor           = 'IMPLAN Torreón Staff';
         $this->fecha           = '2015-09-15T12:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'moderna';
+        $this->archivo         = 'zona-30';
     //  $this->imagen          = '';
     //  $this->imagen_previa   = '';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Desagregación de Moderna en Torreón.';
+        $this->descripcion     = 'Desagregación de Zona 30 en Torreón.';
         $this->claves          = 'IMPLAN, Torreon, Desagregación';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'desagregacion-torreon';
@@ -78,9 +78,6 @@ class Moderna extends \Base\Publicacion {
     <li><a href="#dag-demografia" data-toggle="tab">Demografía</a></li>
     <li><a href="#dag-educacion" data-toggle="tab">Educación</a></li>
     <li><a href="#dag-economia" data-toggle="tab">Economía</a></li>
-    <li><a href="#dag-salud" data-toggle="tab">Salud</a></li>
-    <li><a href="#dag-viviendas" data-toggle="tab">Viviendas</a></li>
-    <li><a href="#dag-u-economicas" data-toggle="tab">U. Económicas</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="dag-demografia">
@@ -96,39 +93,27 @@ class Moderna extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Población total</td>
-      <td class="entero">29,301</td>
+      <td class="entero">119</td>
     </tr>
     <tr>
-      <td>Población de 0 a 14 años</td>
-      <td class="porcentaje">96.70 %</td>
+      <td>Porcentaje de población masculina</td>
+      <td class="porcentaje">47.06 %</td>
     </tr>
     <tr>
-      <td>Población de 15 a 64 años</td>
-      <td class="porcentaje">75.28 %</td>
+      <td>Porcentaje de población femenina</td>
+      <td class="porcentaje">50.42 %</td>
     </tr>
     <tr>
-      <td>Población de 65 y más años</td>
-      <td class="porcentaje">72.89 %</td>
+      <td>Fecundidad promedio</td>
+      <td class="flotante">1.9400</td>
     </tr>
     <tr>
-      <td>Porcentaje de hombres</td>
-      <td class="porcentaje">29.35 %</td>
+      <td>Porcentaje de población nacida en otro estado</td>
+      <td class="porcentaje">0.18 %</td>
     </tr>
     <tr>
-      <td>Porcentaje de mujeres</td>
-      <td class="porcentaje">20.19 %</td>
-    </tr>
-    <tr>
-      <td>Fecundidad</td>
-      <td class="flotante">880.0083</td>
-    </tr>
-    <tr>
-      <td>Migración</td>
-      <td class="porcentaje">50.75 %</td>
-    </tr>
-    <tr>
-      <td>Sin discapacidad</td>
-      <td class="porcentaje">45.13 %</td>
+      <td>Porcentaje de población con discapacidad</td>
+      <td class="porcentaje">0.07 %</td>
     </tr>
   </tbody>
 </table>
@@ -147,16 +132,16 @@ class Moderna extends \Base\Publicacion {
   </thead>
   <tbody>
     <tr>
-      <td>Grado promedio de escolaridad</td>
-      <td class="flotante">634.2187</td>
+      <td>Grado Promedio de Escolaridad</td>
+      <td class="flotante">10.9900</td>
     </tr>
     <tr>
-      <td>Grado promedio de escolaridad masculina</td>
-      <td class="flotante">599.8090</td>
+      <td>Grado Promedio de Escolaridad masculina</td>
+      <td class="flotante">12.0500</td>
     </tr>
     <tr>
-      <td>Grado promedio de escolaridad femenina</td>
-      <td class="flotante">242.9392</td>
+      <td>Grado Promedio de Escolaridad femenina</td>
+      <td class="flotante">10.5800</td>
     </tr>
   </tbody>
 </table>
@@ -175,152 +160,32 @@ class Moderna extends \Base\Publicacion {
   </thead>
   <tbody>
     <tr>
-      <td>Población económicamente activa</td>
-      <td class="porcentaje">50.25 %</td>
+      <td>Población Económicamente Activa</td>
+      <td class="flotante">0.6600</td>
     </tr>
     <tr>
-      <td>Población económicamente activa masculina</td>
-      <td class="porcentaje">3.15 %</td>
+      <td>Población Económicamente Activa masculina</td>
+      <td class="flotante">0.5400</td>
     </tr>
     <tr>
-      <td>Población económicamente activa femenina</td>
-      <td class="porcentaje">32.68 %</td>
+      <td>Población Económicamente Activa femenina</td>
+      <td class="flotante">0.4400</td>
     </tr>
     <tr>
-      <td>Población ocupada</td>
-      <td class="porcentaje">19.29 %</td>
+      <td>Población Ocupada</td>
+      <td class="flotante">0.9500</td>
     </tr>
     <tr>
-      <td>Población ocupada masculina</td>
-      <td class="porcentaje">5.53 %</td>
+      <td>Población Ocupada masculina</td>
+      <td class="flotante">0.5300</td>
     </tr>
     <tr>
-      <td>Población ocupada femenina</td>
-      <td class="porcentaje">89.12 %</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<!-- LISTADO TERMINA -->
-    </div>
-    <div class="tab-pane" id="dag-salud">
-<!-- LISTADO INICIA -->
-<div class="listado">
-<table class="table table-hover table-bordered listado-tabla">
-  <thead>
-    <tr>
-      <th>Concepto</th>
-      <th>Valor</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Derechohabiencia</td>
-      <td class="entero">9,688</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<!-- LISTADO TERMINA -->
-    </div>
-    <div class="tab-pane" id="dag-viviendas">
-<!-- LISTADO INICIA -->
-<div class="listado">
-<table class="table table-hover table-bordered listado-tabla">
-  <thead>
-    <tr>
-      <th>Concepto</th>
-      <th>Valor</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Hogares jefatura masculina</td>
-      <td class="porcentaje">66.13 %</td>
+      <td>Población Ocupada femenina</td>
+      <td class="flotante">0.4500</td>
     </tr>
     <tr>
-      <td>Hogares jefatura femenina</td>
-      <td class="porcentaje">34.97 %</td>
-    </tr>
-    <tr>
-      <td>Viviendas particulares habitadas</td>
-      <td class="porcentaje">98.01 %</td>
-    </tr>
-    <tr>
-      <td>Ocupantes por vivienda</td>
-      <td class="flotante">380.1234</td>
-    </tr>
-    <tr>
-      <td>Hacinamiento</td>
-      <td class="flotante">443.2460</td>
-    </tr>
-    <tr>
-      <td>Con luz elétrica</td>
-      <td class="porcentaje">25.41 %</td>
-    </tr>
-    <tr>
-      <td>Con agua entubada</td>
-      <td class="porcentaje">5.70 %</td>
-    </tr>
-    <tr>
-      <td>Con drenaje</td>
-      <td class="porcentaje">71.23 %</td>
-    </tr>
-    <tr>
-      <td>Con automóvil</td>
-      <td class="porcentaje">19.69 %</td>
-    </tr>
-    <tr>
-      <td>Con computadora</td>
-      <td class="porcentaje">33.51 %</td>
-    </tr>
-    <tr>
-      <td>Con teléfono celular</td>
-      <td class="porcentaje">33.47 %</td>
-    </tr>
-    <tr>
-      <td>Con internet</td>
-      <td class="porcentaje">30.87 %</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<!-- LISTADO TERMINA -->
-    </div>
-    <div class="tab-pane" id="dag-u-economicas">
-<!-- LISTADO INICIA -->
-<div class="listado">
-<table class="table table-hover table-bordered listado-tabla">
-  <thead>
-    <tr>
-      <th>Concepto</th>
-      <th>Valor</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Comercio al por menor</td>
-      <td class="porcentaje">6.76 %</td>
-    </tr>
-    <tr>
-      <td>Servicios excepto gubernamentales</td>
-      <td class="porcentaje">30.16 %</td>
-    </tr>
-    <tr>
-      <td>Servicios de alojamiento temporal</td>
-      <td class="porcentaje">6.15 %</td>
-    </tr>
-    <tr>
-      <td>De 0 a 5 empleados</td>
-      <td class="porcentaje">79.65 %</td>
-    </tr>
-    <tr>
-      <td>De 6 a 10 empleados</td>
-      <td class="porcentaje">59.52 %</td>
-    </tr>
-    <tr>
-      <td>De 11 a 30 empleados</td>
-      <td class="porcentaje">26.34 %</td>
+      <td>Población Desocupada</td>
+      <td class="flotante">0.0500</td>
     </tr>
   </tbody>
 </table>
@@ -363,6 +228,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase Moderna
+} // Clase Zona30
 
 ?>

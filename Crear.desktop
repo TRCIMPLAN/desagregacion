@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Crear
+Comment=TrcIMPLAN Desagregación sitio web
+Exec=xterm -hold -e bin/Crear.php
+Icon=flare
+Path=/home/guivaloz/Documentos/TrcIMPLAN/GitHub/desagregacion/
+Terminal=false
+StartupNotify=false
