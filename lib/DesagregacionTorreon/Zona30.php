@@ -78,6 +78,7 @@ class Zona30 extends \Base\Publicacion {
     <li><a href="#dag-demografia" data-toggle="tab">Demografía</a></li>
     <li><a href="#dag-educacion" data-toggle="tab">Educación</a></li>
     <li><a href="#dag-economia" data-toggle="tab">Economía</a></li>
+    <li><a href="#dag-viviendas" data-toggle="tab">Viviendas</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="dag-demografia">
@@ -109,11 +110,11 @@ class Zona30 extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Porcentaje de población nacida en otro estado</td>
-      <td class="porcentaje">0.18 %</td>
+      <td class="porcentaje">18.49 %</td>
     </tr>
     <tr>
       <td>Porcentaje de población con discapacidad</td>
-      <td class="porcentaje">0.07 %</td>
+      <td class="porcentaje">6.72 %</td>
     </tr>
   </tbody>
 </table>
@@ -161,31 +162,99 @@ class Zona30 extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Población Económicamente Activa</td>
-      <td class="flotante">0.6600</td>
+      <td class="porcentaje">0.66 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa masculina</td>
-      <td class="flotante">0.5400</td>
+      <td class="porcentaje">0.54 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa femenina</td>
-      <td class="flotante">0.4400</td>
+      <td class="porcentaje">0.44 %</td>
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="flotante">0.9500</td>
+      <td class="porcentaje">0.95 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
-      <td class="flotante">0.5300</td>
+      <td class="porcentaje">0.53 %</td>
     </tr>
     <tr>
       <td>Población Ocupada femenina</td>
-      <td class="flotante">0.4500</td>
+      <td class="porcentaje">0.45 %</td>
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="flotante">0.0500</td>
+      <td class="porcentaje">0.05 %</td>
+    </tr>
+    <tr>
+      <td>Derechohabiencia</td>
+      <td class="porcentaje">62.18 %</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- LISTADO TERMINA -->
+    </div>
+    <div class="tab-pane" id="dag-viviendas">
+<!-- LISTADO INICIA -->
+<div class="listado">
+<table class="table table-hover table-bordered listado-tabla">
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hogares</td>
+      <td class="entero">35</td>
+    </tr>
+    <tr>
+      <td>Hogares Jefatura masculina</td>
+      <td class="porcentaje">54.29 %</td>
+    </tr>
+    <tr>
+      <td>Hogares Jefatura femenina</td>
+      <td class="porcentaje">37.14 %</td>
+    </tr>
+    <tr>
+      <td>Ocupación por Vivienda</td>
+      <td class="flotante">3.4000</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Electricidad</td>
+      <td class="porcentaje">100.00 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Agua</td>
+      <td class="porcentaje">100.00 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Drenaje</td>
+      <td class="porcentaje">100.00 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Televisión</td>
+      <td class="porcentaje">100.00 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Automóvil</td>
+      <td class="porcentaje">48.57 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Computadora</td>
+      <td class="porcentaje">40.00 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Celular</td>
+      <td class="porcentaje">80.00 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Internet</td>
+      <td class="porcentaje">20.00 %</td>
     </tr>
   </tbody>
 </table>

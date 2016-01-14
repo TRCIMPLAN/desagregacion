@@ -78,6 +78,7 @@ class ColoniaVicenteGuerrero extends \Base\Publicacion {
     <li><a href="#dag-demografia" data-toggle="tab">Demografía</a></li>
     <li><a href="#dag-educacion" data-toggle="tab">Educación</a></li>
     <li><a href="#dag-economia" data-toggle="tab">Economía</a></li>
+    <li><a href="#dag-viviendas" data-toggle="tab">Viviendas</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="dag-demografia">
@@ -109,11 +110,11 @@ class ColoniaVicenteGuerrero extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Porcentaje de población nacida en otro estado</td>
-      <td class="porcentaje">0.16 %</td>
+      <td class="porcentaje">16.03 %</td>
     </tr>
     <tr>
       <td>Porcentaje de población con discapacidad</td>
-      <td class="porcentaje">0.08 %</td>
+      <td class="porcentaje">8.37 %</td>
     </tr>
   </tbody>
 </table>
@@ -161,31 +162,99 @@ class ColoniaVicenteGuerrero extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Población Económicamente Activa</td>
-      <td class="flotante">0.5100</td>
+      <td class="porcentaje">0.51 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa masculina</td>
-      <td class="flotante">0.6700</td>
+      <td class="porcentaje">0.67 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa femenina</td>
-      <td class="flotante">0.3300</td>
+      <td class="porcentaje">0.33 %</td>
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="flotante">0.8900</td>
+      <td class="porcentaje">0.89 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
-      <td class="flotante">0.6500</td>
+      <td class="porcentaje">0.65 %</td>
     </tr>
     <tr>
       <td>Población Ocupada femenina</td>
-      <td class="flotante">0.3500</td>
+      <td class="porcentaje">0.35 %</td>
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="flotante">0.1200</td>
+      <td class="porcentaje">0.12 %</td>
+    </tr>
+    <tr>
+      <td>Derechohabiencia</td>
+      <td class="porcentaje">67.28 %</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- LISTADO TERMINA -->
+    </div>
+    <div class="tab-pane" id="dag-viviendas">
+<!-- LISTADO INICIA -->
+<div class="listado">
+<table class="table table-hover table-bordered listado-tabla">
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hogares</td>
+      <td class="entero">1,589</td>
+    </tr>
+    <tr>
+      <td>Hogares Jefatura masculina</td>
+      <td class="porcentaje">67.59 %</td>
+    </tr>
+    <tr>
+      <td>Hogares Jefatura femenina</td>
+      <td class="porcentaje">32.10 %</td>
+    </tr>
+    <tr>
+      <td>Ocupación por Vivienda</td>
+      <td class="flotante">3.8000</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Electricidad</td>
+      <td class="porcentaje">99.94 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Agua</td>
+      <td class="porcentaje">99.06 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Drenaje</td>
+      <td class="porcentaje">99.56 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Televisión</td>
+      <td class="porcentaje">97.86 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Automóvil</td>
+      <td class="porcentaje">38.70 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Computadora</td>
+      <td class="porcentaje">22.84 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Celular</td>
+      <td class="porcentaje">65.01 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Internet</td>
+      <td class="porcentaje">15.23 %</td>
     </tr>
   </tbody>
 </table>

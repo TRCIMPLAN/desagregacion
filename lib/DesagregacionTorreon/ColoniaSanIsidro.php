@@ -78,6 +78,7 @@ class ColoniaSanIsidro extends \Base\Publicacion {
     <li><a href="#dag-demografia" data-toggle="tab">Demografía</a></li>
     <li><a href="#dag-educacion" data-toggle="tab">Educación</a></li>
     <li><a href="#dag-economia" data-toggle="tab">Economía</a></li>
+    <li><a href="#dag-viviendas" data-toggle="tab">Viviendas</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="dag-demografia">
@@ -109,11 +110,11 @@ class ColoniaSanIsidro extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Porcentaje de población nacida en otro estado</td>
-      <td class="porcentaje">0.22 %</td>
+      <td class="porcentaje">22.46 %</td>
     </tr>
     <tr>
       <td>Porcentaje de población con discapacidad</td>
-      <td class="porcentaje">0.05 %</td>
+      <td class="porcentaje">4.63 %</td>
     </tr>
   </tbody>
 </table>
@@ -161,31 +162,99 @@ class ColoniaSanIsidro extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Población Económicamente Activa</td>
-      <td class="flotante">0.5200</td>
+      <td class="porcentaje">0.52 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa masculina</td>
-      <td class="flotante">0.5800</td>
+      <td class="porcentaje">0.58 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa femenina</td>
-      <td class="flotante">0.4100</td>
+      <td class="porcentaje">0.41 %</td>
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="flotante">0.9700</td>
+      <td class="porcentaje">0.97 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
-      <td class="flotante">0.5800</td>
+      <td class="porcentaje">0.58 %</td>
     </tr>
     <tr>
       <td>Población Ocupada femenina</td>
-      <td class="flotante">0.4200</td>
+      <td class="porcentaje">0.42 %</td>
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="flotante">0.0400</td>
+      <td class="porcentaje">0.04 %</td>
+    </tr>
+    <tr>
+      <td>Derechohabiencia</td>
+      <td class="porcentaje">75.15 %</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- LISTADO TERMINA -->
+    </div>
+    <div class="tab-pane" id="dag-viviendas">
+<!-- LISTADO INICIA -->
+<div class="listado">
+<table class="table table-hover table-bordered listado-tabla">
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hogares</td>
+      <td class="entero">888</td>
+    </tr>
+    <tr>
+      <td>Hogares Jefatura masculina</td>
+      <td class="porcentaje">74.32 %</td>
+    </tr>
+    <tr>
+      <td>Hogares Jefatura femenina</td>
+      <td class="porcentaje">25.34 %</td>
+    </tr>
+    <tr>
+      <td>Ocupación por Vivienda</td>
+      <td class="flotante">3.4800</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Electricidad</td>
+      <td class="porcentaje">99.66 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Agua</td>
+      <td class="porcentaje">98.99 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Drenaje</td>
+      <td class="porcentaje">99.21 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Televisión</td>
+      <td class="porcentaje">96.85 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Automóvil</td>
+      <td class="porcentaje">93.24 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Computadora</td>
+      <td class="porcentaje">80.97 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Celular</td>
+      <td class="porcentaje">89.19 %</td>
+    </tr>
+    <tr>
+      <td>Viviendas con Internet</td>
+      <td class="porcentaje">77.82 %</td>
     </tr>
   </tbody>
 </table>
