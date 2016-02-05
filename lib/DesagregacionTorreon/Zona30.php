@@ -174,7 +174,7 @@ class Zona30 extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="porcentaje">95.08 %</td>
+      <td class="porcentaje">94.84 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
@@ -186,7 +186,7 @@ class Zona30 extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="porcentaje">5.17 %</td>
+      <td class="porcentaje">5.16 %</td>
     </tr>
     <tr>
       <td>Derechohabiencia</td>

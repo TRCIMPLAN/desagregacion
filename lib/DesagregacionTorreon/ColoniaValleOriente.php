@@ -174,7 +174,7 @@ class ColoniaValleOriente extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="porcentaje">91.57 %</td>
+      <td class="porcentaje">90.86 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
@@ -186,7 +186,7 @@ class ColoniaValleOriente extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="porcentaje">9.21 %</td>
+      <td class="porcentaje">9.14 %</td>
     </tr>
     <tr>
       <td>Derechohabiencia</td>

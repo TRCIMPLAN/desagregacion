@@ -174,7 +174,7 @@ class ColoniaVicenteGuerrero extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="porcentaje">89.37 %</td>
+      <td class="porcentaje">88.37 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
@@ -186,7 +186,7 @@ class ColoniaVicenteGuerrero extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="porcentaje">11.76 %</td>
+      <td class="porcentaje">11.63 %</td>
     </tr>
     <tr>
       <td>Derechohabiencia</td>
