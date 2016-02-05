@@ -23,24 +23,24 @@
 namespace DesagregacionTorreon;
 
 /**
- * Clase ColoniaValleOriente
+ * Clase ColoniaLazaroCardenas
  */
-class ColoniaValleOriente extends \Base\Publicacion {
+class ColoniaLazaroCardenas extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Desagregación Colonia Valle Oriente';
+        $this->nombre          = 'Desagregación Colonia Lázaro Cárdenas';
         $this->autor           = 'IMPLAN Torreón Staff';
         $this->fecha           = '2015-09-15T12:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'colonia-valle-oriente';
+        $this->archivo         = 'colonia-lazaro-cardenas';
     //  $this->imagen          = '';
     //  $this->imagen_previa   = '';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Desagregación de Colonia Valle Oriente en Torreón.';
+        $this->descripcion     = 'Desagregación de Colonia Lázaro Cárdenas en Torreón.';
         $this->claves          = 'IMPLAN, Torreon, Desagregación';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'desagregacion-torreon';
@@ -94,27 +94,27 @@ class ColoniaValleOriente extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Población total</td>
-      <td class="entero">5,641</td>
+      <td class="entero">5,286</td>
     </tr>
     <tr>
       <td>Porcentaje de población masculina</td>
-      <td class="porcentaje">48.45 %</td>
+      <td class="porcentaje">49.40 %</td>
     </tr>
     <tr>
       <td>Porcentaje de población femenina</td>
-      <td class="porcentaje">51.55 %</td>
+      <td class="porcentaje">50.60 %</td>
     </tr>
     <tr>
       <td>Fecundidad promedio</td>
-      <td class="flotante">2.2000</td>
+      <td class="flotante">2.5100</td>
     </tr>
     <tr>
       <td>Porcentaje de población nacida en otro estado</td>
-      <td class="porcentaje">14.77 %</td>
+      <td class="porcentaje">20.36 %</td>
     </tr>
     <tr>
       <td>Porcentaje de población con discapacidad</td>
-      <td class="porcentaje">8.39 %</td>
+      <td class="porcentaje">9.88 %</td>
     </tr>
   </tbody>
 </table>
@@ -134,15 +134,15 @@ class ColoniaValleOriente extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Grado Promedio de Escolaridad</td>
-      <td class="flotante">9.8500</td>
+      <td class="flotante">7.6900</td>
     </tr>
     <tr>
       <td>Grado Promedio de Escolaridad masculina</td>
-      <td class="flotante">10.1000</td>
+      <td class="flotante">7.7200</td>
     </tr>
     <tr>
       <td>Grado Promedio de Escolaridad femenina</td>
-      <td class="flotante">9.6100</td>
+      <td class="flotante">7.6700</td>
     </tr>
   </tbody>
 </table>
@@ -162,35 +162,35 @@ class ColoniaValleOriente extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Población Económicamente Activa</td>
-      <td class="porcentaje">57.14 %</td>
+      <td class="porcentaje">52.59 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa masculina</td>
-      <td class="porcentaje">63.70 %</td>
+      <td class="porcentaje">70.92 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa femenina</td>
-      <td class="porcentaje">36.30 %</td>
+      <td class="porcentaje">29.08 %</td>
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="porcentaje">91.57 %</td>
+      <td class="porcentaje">91.15 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
-      <td class="porcentaje">63.33 %</td>
+      <td class="porcentaje">70.10 %</td>
     </tr>
     <tr>
       <td>Población Ocupada femenina</td>
-      <td class="porcentaje">36.67 %</td>
+      <td class="porcentaje">29.90 %</td>
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="porcentaje">9.21 %</td>
+      <td class="porcentaje">9.65 %</td>
     </tr>
     <tr>
       <td>Derechohabiencia</td>
-      <td class="porcentaje">78.07 %</td>
+      <td class="porcentaje">64.43 %</td>
     </tr>
   </tbody>
 </table>
@@ -210,19 +210,19 @@ class ColoniaValleOriente extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Hogares</td>
-      <td class="entero">1,465</td>
+      <td class="entero">1,337</td>
     </tr>
     <tr>
       <td>Hogares Jefatura masculina</td>
-      <td class="porcentaje">75.90 %</td>
+      <td class="porcentaje">79.24 %</td>
     </tr>
     <tr>
       <td>Hogares Jefatura femenina</td>
-      <td class="porcentaje">24.10 %</td>
+      <td class="porcentaje">20.76 %</td>
     </tr>
     <tr>
       <td>Ocupación por Vivienda</td>
-      <td class="flotante">3.8500</td>
+      <td class="flotante">3.9500</td>
     </tr>
     <tr>
       <td>Viviendas con Electricidad</td>
@@ -230,31 +230,31 @@ class ColoniaValleOriente extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Viviendas con Agua</td>
-      <td class="porcentaje">99.66 %</td>
+      <td class="porcentaje">97.31 %</td>
     </tr>
     <tr>
       <td>Viviendas con Drenaje</td>
-      <td class="porcentaje">99.59 %</td>
+      <td class="porcentaje">97.23 %</td>
     </tr>
     <tr>
       <td>Viviendas con Televisión</td>
-      <td class="porcentaje">99.52 %</td>
+      <td class="porcentaje">97.08 %</td>
     </tr>
     <tr>
       <td>Viviendas con Automóvil</td>
-      <td class="porcentaje">52.22 %</td>
+      <td class="porcentaje">40.61 %</td>
     </tr>
     <tr>
       <td>Viviendas con Computadora</td>
-      <td class="porcentaje">37.75 %</td>
+      <td class="porcentaje">16.01 %</td>
     </tr>
     <tr>
       <td>Viviendas con Celular</td>
-      <td class="porcentaje">80.96 %</td>
+      <td class="porcentaje">60.88 %</td>
     </tr>
     <tr>
       <td>Viviendas con Internet</td>
-      <td class="porcentaje">24.30 %</td>
+      <td class="porcentaje">6.43 %</td>
     </tr>
   </tbody>
 </table>
@@ -297,6 +297,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase ColoniaValleOriente
+} // Clase ColoniaLazaroCardenas
 
 ?>

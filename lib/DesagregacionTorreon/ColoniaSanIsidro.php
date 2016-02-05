@@ -98,11 +98,11 @@ class ColoniaSanIsidro extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Porcentaje de población masculina</td>
-      <td class="porcentaje">46.96 %</td>
+      <td class="porcentaje">46.97 %</td>
     </tr>
     <tr>
       <td>Porcentaje de población femenina</td>
-      <td class="porcentaje">53.01 %</td>
+      <td class="porcentaje">53.03 %</td>
     </tr>
     <tr>
       <td>Fecundidad promedio</td>
@@ -162,31 +162,31 @@ class ColoniaSanIsidro extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Población Económicamente Activa</td>
-      <td class="porcentaje">0.52 %</td>
+      <td class="porcentaje">51.95 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa masculina</td>
-      <td class="porcentaje">0.58 %</td>
+      <td class="porcentaje">58.47 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa femenina</td>
-      <td class="porcentaje">0.41 %</td>
+      <td class="porcentaje">41.53 %</td>
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="porcentaje">0.97 %</td>
+      <td class="porcentaje">96.52 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
-      <td class="porcentaje">0.58 %</td>
+      <td class="porcentaje">58.25 %</td>
     </tr>
     <tr>
       <td>Población Ocupada femenina</td>
-      <td class="porcentaje">0.42 %</td>
+      <td class="porcentaje">41.75 %</td>
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="porcentaje">0.04 %</td>
+      <td class="porcentaje">3.53 %</td>
     </tr>
     <tr>
       <td>Derechohabiencia</td>
@@ -214,11 +214,11 @@ class ColoniaSanIsidro extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Hogares Jefatura masculina</td>
-      <td class="porcentaje">74.32 %</td>
+      <td class="porcentaje">74.58 %</td>
     </tr>
     <tr>
       <td>Hogares Jefatura femenina</td>
-      <td class="porcentaje">25.34 %</td>
+      <td class="porcentaje">25.42 %</td>
     </tr>
     <tr>
       <td>Ocupación por Vivienda</td>

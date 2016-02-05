@@ -98,11 +98,11 @@ class Zona30 extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Porcentaje de población masculina</td>
-      <td class="porcentaje">47.06 %</td>
+      <td class="porcentaje">48.28 %</td>
     </tr>
     <tr>
       <td>Porcentaje de población femenina</td>
-      <td class="porcentaje">50.42 %</td>
+      <td class="porcentaje">51.72 %</td>
     </tr>
     <tr>
       <td>Fecundidad promedio</td>
@@ -162,31 +162,31 @@ class Zona30 extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Población Económicamente Activa</td>
-      <td class="porcentaje">0.66 %</td>
+      <td class="porcentaje">65.59 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa masculina</td>
-      <td class="porcentaje">0.54 %</td>
+      <td class="porcentaje">55.00 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa femenina</td>
-      <td class="porcentaje">0.44 %</td>
+      <td class="porcentaje">45.00 %</td>
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="porcentaje">0.95 %</td>
+      <td class="porcentaje">95.08 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
-      <td class="porcentaje">0.53 %</td>
+      <td class="porcentaje">54.39 %</td>
     </tr>
     <tr>
       <td>Población Ocupada femenina</td>
-      <td class="porcentaje">0.45 %</td>
+      <td class="porcentaje">45.61 %</td>
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="porcentaje">0.05 %</td>
+      <td class="porcentaje">5.17 %</td>
     </tr>
     <tr>
       <td>Derechohabiencia</td>
@@ -214,11 +214,11 @@ class Zona30 extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Hogares Jefatura masculina</td>
-      <td class="porcentaje">54.29 %</td>
+      <td class="porcentaje">59.38 %</td>
     </tr>
     <tr>
       <td>Hogares Jefatura femenina</td>
-      <td class="porcentaje">37.14 %</td>
+      <td class="porcentaje">40.63 %</td>
     </tr>
     <tr>
       <td>Ocupación por Vivienda</td>

@@ -98,11 +98,11 @@ class ColoniaVicenteGuerrero extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Porcentaje de población masculina</td>
-      <td class="porcentaje">49.07 %</td>
+      <td class="porcentaje">49.09 %</td>
     </tr>
     <tr>
       <td>Porcentaje de población femenina</td>
-      <td class="porcentaje">50.89 %</td>
+      <td class="porcentaje">50.91 %</td>
     </tr>
     <tr>
       <td>Fecundidad promedio</td>
@@ -162,31 +162,31 @@ class ColoniaVicenteGuerrero extends \Base\Publicacion {
   <tbody>
     <tr>
       <td>Población Económicamente Activa</td>
-      <td class="porcentaje">0.51 %</td>
+      <td class="porcentaje">51.16 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa masculina</td>
-      <td class="porcentaje">0.67 %</td>
+      <td class="porcentaje">67.26 %</td>
     </tr>
     <tr>
       <td>Población Económicamente Activa femenina</td>
-      <td class="porcentaje">0.33 %</td>
+      <td class="porcentaje">32.74 %</td>
     </tr>
     <tr>
       <td>Población Ocupada</td>
-      <td class="porcentaje">0.89 %</td>
+      <td class="porcentaje">89.37 %</td>
     </tr>
     <tr>
       <td>Población Ocupada masculina</td>
-      <td class="porcentaje">0.65 %</td>
+      <td class="porcentaje">65.31 %</td>
     </tr>
     <tr>
       <td>Población Ocupada femenina</td>
-      <td class="porcentaje">0.35 %</td>
+      <td class="porcentaje">34.69 %</td>
     </tr>
     <tr>
       <td>Población Desocupada</td>
-      <td class="porcentaje">0.12 %</td>
+      <td class="porcentaje">11.76 %</td>
     </tr>
     <tr>
       <td>Derechohabiencia</td>
@@ -214,11 +214,11 @@ class ColoniaVicenteGuerrero extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Hogares Jefatura masculina</td>
-      <td class="porcentaje">67.59 %</td>
+      <td class="porcentaje">67.80 %</td>
     </tr>
     <tr>
       <td>Hogares Jefatura femenina</td>
-      <td class="porcentaje">32.10 %</td>
+      <td class="porcentaje">32.20 %</td>
     </tr>
     <tr>
       <td>Ocupación por Vivienda</td>
