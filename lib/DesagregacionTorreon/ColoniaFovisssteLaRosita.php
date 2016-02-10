@@ -105,6 +105,22 @@ class ColoniaFovisssteLaRosita extends \Base\Publicacion {
       <td class="porcentaje">52.75 %</td>
     </tr>
     <tr>
+      <td>Porcentaje de población de 0 a 14 años</td>
+      <td class="porcentaje">19.77 %</td>
+    </tr>
+    <tr>
+      <td>Porcentaje de población de 15 a 64 años</td>
+      <td class="porcentaje">71.41 %</td>
+    </tr>
+    <tr>
+      <td>Porcentaje de población de 65 y más años</td>
+      <td class="porcentaje">8.07 %</td>
+    </tr>
+    <tr>
+      <td>Porcentaje de población no especificada</td>
+      <td class="porcentaje">0.76 %</td>
+    </tr>
+    <tr>
       <td>Fecundidad promedio</td>
       <td class="flotante">2.1100</td>
     </tr>

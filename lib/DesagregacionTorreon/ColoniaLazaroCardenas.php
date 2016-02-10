@@ -105,6 +105,22 @@ class ColoniaLazaroCardenas extends \Base\Publicacion {
       <td class="porcentaje">50.60 %</td>
     </tr>
     <tr>
+      <td>Porcentaje de población de 0 a 14 años</td>
+      <td class="porcentaje">32.56 %</td>
+    </tr>
+    <tr>
+      <td>Porcentaje de población de 15 a 64 años</td>
+      <td class="porcentaje">62.58 %</td>
+    </tr>
+    <tr>
+      <td>Porcentaje de población de 65 y más años</td>
+      <td class="porcentaje">4.67 %</td>
+    </tr>
+    <tr>
+      <td>Porcentaje de población no especificada</td>
+      <td class="porcentaje">0.19 %</td>
+    </tr>
+    <tr>
       <td>Fecundidad promedio</td>
       <td class="flotante">2.5100</td>
     </tr>

@@ -105,6 +105,22 @@ class ColoniaVicenteGuerrero extends \Base\Publicacion {
       <td class="porcentaje">50.91 %</td>
     </tr>
     <tr>
+      <td>Porcentaje de población de 0 a 14 años</td>
+      <td class="porcentaje">26.33 %</td>
+    </tr>
+    <tr>
+      <td>Porcentaje de población de 15 a 64 años</td>
+      <td class="porcentaje">63.89 %</td>
+    </tr>
+    <tr>
+      <td>Porcentaje de población de 65 y más años</td>
+      <td class="porcentaje">9.51 %</td>
+    </tr>
+    <tr>
+      <td>Porcentaje de población no especificada</td>
+      <td class="porcentaje">0.26 %</td>
+    </tr>
+    <tr>
       <td>Fecundidad promedio</td>
       <td class="flotante">2.6800</td>
     </tr>
