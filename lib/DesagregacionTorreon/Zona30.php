@@ -79,6 +79,7 @@ class Zona30 extends \Base\Publicacion {
     <li><a href="#dag-educacion" data-toggle="tab">Educación</a></li>
     <li><a href="#dag-economia" data-toggle="tab">Economía</a></li>
     <li><a href="#dag-viviendas" data-toggle="tab">Viviendas</a></li>
+    <li><a href="#dag-u-economicas" data-toggle="tab">U. Económicas</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="dag-demografia">
@@ -271,6 +272,46 @@ class Zona30 extends \Base\Publicacion {
     <tr>
       <td>Viviendas con Internet</td>
       <td class="porcentaje">20.00 %</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- LISTADO TERMINA -->
+    </div>
+    <div class="tab-pane" id="dag-u-economicas">
+<!-- LISTADO INICIA -->
+<div class="listado">
+<table class="table table-hover table-bordered listado-tabla">
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Total Actividades Económicas</td>
+      <td class="entero">361</td>
+    </tr>
+    <tr>
+      <td>Primer actividad</td>
+      <td class="texto">1. Comercio Menudeo 46.54 %</td>
+    </tr>
+    <tr>
+      <td>Segunda actividad</td>
+      <td class="texto">2. Otros servicios, excepto Gobierno 13.57 %</td>
+    </tr>
+    <tr>
+      <td>Tercera actividad</td>
+      <td class="texto">3. Preparación de Alimentos y Bebidas 13.02 %</td>
+    </tr>
+    <tr>
+      <td>Cuarta actividad</td>
+      <td class="texto">4. Profesionales, Científicos, Técnicos 9.42 %</td>
+    </tr>
+    <tr>
+      <td>Quinta actividad</td>
+      <td class="texto">5. Gubernamentales 4.43 %</td>
     </tr>
   </tbody>
 </table>
