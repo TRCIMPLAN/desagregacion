@@ -79,7 +79,7 @@ class ColoniaFovisssteLaRosita extends \Base\Publicacion {
     <li><a href="#dag-educacion" data-toggle="tab">Educación</a></li>
     <li><a href="#dag-economia" data-toggle="tab">Economía</a></li>
     <li><a href="#dag-viviendas" data-toggle="tab">Viviendas</a></li>
-    <li><a href="#dag-u-economicas" data-toggle="tab">U. Económicas</a></li>
+    <li><a href="#dag-actividades" data-toggle="tab">Actividades</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="dag-demografia">
@@ -278,7 +278,7 @@ class ColoniaFovisssteLaRosita extends \Base\Publicacion {
 </div>
 <!-- LISTADO TERMINA -->
     </div>
-    <div class="tab-pane" id="dag-u-economicas">
+    <div class="tab-pane" id="dag-actividades">
 <!-- LISTADO INICIA -->
 <div class="listado">
 <table class="table table-hover table-bordered listado-tabla">
@@ -295,23 +295,23 @@ class ColoniaFovisssteLaRosita extends \Base\Publicacion {
     </tr>
     <tr>
       <td>Primer actividad</td>
-      <td class="texto">1. Comercio Menudeo 29.27 %</td>
+      <td class="texto">Comercio Menudeo 29.27 %</td>
     </tr>
     <tr>
       <td>Segunda actividad</td>
-      <td class="texto">2. Preparación de Alimentos y Bebidas 21.95 %</td>
+      <td class="texto">Preparación de Alimentos y Bebidas 21.95 %</td>
     </tr>
     <tr>
       <td>Tercera actividad</td>
-      <td class="texto">3. Otros servicios, excepto Gobierno 17.07 %</td>
+      <td class="texto">Otros servicios, excepto Gobierno 17.07 %</td>
     </tr>
     <tr>
       <td>Cuarta actividad</td>
-      <td class="texto">4. Industria Manufacturera 9.76 %</td>
+      <td class="texto">Industria Manufacturera 9.76 %</td>
     </tr>
     <tr>
       <td>Quinta actividad</td>
-      <td class="texto">5. Salud 4.88 %</td>
+      <td class="texto">Salud 4.88 %</td>
     </tr>
   </tbody>
 </table>
